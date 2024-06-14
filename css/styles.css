@@ -1,0 +1,43 @@
+body{
+    background-image: url(https://archive.org/download/windows-xp-bliss-4k-lu-3840x2400/windows-xp-bliss-4k-lu-3840x2400.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    background-color: #f9fbf9;
+    color: rgb(8, 8, 8);
+    animation: cambio-de-color 10s infinite;
+    box-shadow: 0 0 20px #e6e8eb00;
+    transition: transform 0.3s;
+    }
+    .card:hover {
+        transform: scale(1.1); /* El elemento se agrandará al pasar el cursor */
+    }
+
+h2{
+    font-size: 2rem;
+    color: #fbf5f5;
+    text-align: center;
+    padding: 2rem;
+}
+
+.yo{
+    width: 20rem;
+    height: auto;
+    border-radius: 50%;
+    margin: 2rem auto;
+    display: block;
+}
+
+.nubes{
+    width: 20rem;
+    height: auto;
+    border-radius: 50%;
+    margin: 1rem auto;
+    display: block;
+}
+
+.button{
+    background-color: #f9fbf9;
+}
